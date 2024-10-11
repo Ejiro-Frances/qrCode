@@ -11,7 +11,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 100px 0;
+  padding: 50px 0 5px;
 }
 a {
   text-decoration: none;
@@ -43,4 +43,9 @@ a {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+@media screen and (max-width: 480px) {
+  body {
+    padding-top: 100px;
+  }
 }
