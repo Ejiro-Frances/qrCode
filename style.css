@@ -1,6 +1,4 @@
-/* - Slate 300: hsl(212, 45%, 89%) */
-/* - Slate 500: hsl(216, 15%, 48%) */
-/* -Slate 900: hsl(218, 44%, 22%)  */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 * {
   box-sizing: border-box;
   padding: 0;
@@ -9,12 +7,14 @@
 }
 body {
   background-color: hsl(212, 45%, 89%);
-  /* width: 1440px; */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 50px;
+}
+a {
+  text-decoration: none;
 }
 .container {
   width: 290px;
