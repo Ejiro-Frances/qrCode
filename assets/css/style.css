@@ -12,6 +12,7 @@ body {
   justify-content: center;
   align-items: center;
   padding: 50px 0 5px;
+  min-height: 100vh;
 }
 a {
   text-decoration: none;
